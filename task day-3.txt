@@ -1,0 +1,38 @@
+1.For the given JSON iterate over all loops(for,for in,for of,for each)
+    
+
+JSON-Stands for Java Script Obiect Notation..its a language 
+independent,text based format.
+
+
+
+USE A FOR. LOOP
+  
+    A for..loop iterates over all enumerable properties of on object
+      
+       const json =[
+                      {
+                            id:      "1",
+                            msg:"there"
+                            tid:"202202"
+                            fromWho : "hello2@email.cpm",
+},
+];
+ for (const obj json) {
+ console.log(obj.id);
+}
+
+to loop throught JSON array with a FOR of loop
+   
+FOR EACH LOOP
+    
+                A forEach loop do whatever we want inthe callback.
+
+                 const a=["a","b","c"];
+                  a.forEach(entry)=>{
+                  console.log (entry);
+)
+};
+         
+
+                   
